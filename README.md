@@ -6,7 +6,9 @@ on `/app`
 `docker run -i -w /wd -v ~/Desktop/app:/wd cpu_logger_im`
 
 # Why using docker configuration file?
-I used docker config file because I needed psutil and I saw it is ntaive on some of the linux machines I tried it on, but not on others.
+Even though I saw that it could be a little easier creating an image without the dockerfile,
+I used the config file because I needed psutil and I saw it is native on some of the linux machines I tried it on, but not on others.
+
 
 - timestamp is showing UTC time
 
