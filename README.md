@@ -1,6 +1,4 @@
-# cpu_mem_sta
-
-build:
+#build:
 on /app
 docker build -t cpu_logger_im .
 
